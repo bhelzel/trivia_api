@@ -5,3 +5,17 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+wright_brother = Question.create!(
+    text: "What year did the Wright Brothers first take flight?",
+    answer: "1903",
+    category: "History",
+    dummy_answers: ["1915", "1898", "1936"]
+)
+
+bond_james_bond = Question.create!(
+    text: "His drink of choice is a vodka martini, shaken, not stirred.",
+    answer: "James Bond",
+    category: "Film and Television",
+    dummy_answers: ["Austin Powers", "Ian Flemming", "Matt Damon"]
+)
