@@ -10,7 +10,14 @@ Question.create!(
     text: "What year did the Wright Brothers first take flight?",
     answer: "1903",
     category: "History",
-    dummy_answers: ["1915", "1898", "1936"]
+    dummy_answers: ["1915", "1898", "1936"],
+)
+
+Question.create!(
+    text: "____________ is an ethical theory that argues right and wrong are determined by a set of universal moral rules, such as 'don't lie, steal, or cheat'.",
+    answer: "Deontology",
+    category: "Philosophy",
+    dummy_answers: ["Utilitarianism", "Existentialism", "Consequentialism"]
 )
 
 Question.create!(
