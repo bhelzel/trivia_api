@@ -95,3 +95,4 @@ Question.create!(
     answer: "Billie Jean King",
     category: "Sports",
     dummy_answers: ["Margaret Court", "Serena Williams", "Maria Sharapova"]
+)
