@@ -21,7 +21,7 @@ Question.create!(
 )
 
 Question.create!(
-    text: "This world leader was known by the nickname: 'The Iron Lady.'",
+    text: "This world leader was known by the nickname: 'The Iron Lady'.",
     answer: "Margaret Thatcher",
     category: "History",
     dummy_answers: ["Angela Merkel", "Aung San Suu Kyi", "Theresa May"]
@@ -63,7 +63,28 @@ Question.create!(
 )
 
 Question.create!(
-    text: "Considered to be one of the greatest tennis players of all time, she took down Bobby Riggs in the 'Battle of the Sexes.'",
+    text: "This Chinese director is responsible for the critically acclaimed films 'Still Life' and 'A Touch of Sin'.",
+    answer: "Jia Zhangke",
+    category: "Film and Television",
+    dummy_answers: ["Wong Karwai", "Chen Kaige", "Zhou Bing"]
+)
+
+Question.create!(
+    text: "Despite an almost fatal bus accident, which inspired her masterpiece 'The Broken Column', she recovered to become one of the most celebrated portrait artists of all time.",
+    answer: "Frida Kahlo",
+    category: "Art",
+    dummy_answers: ["Berthe Morisot", "Georgia O'Keeffe", "Tamara de Lempicka"]
+)
+
+Question.create!(
+    text: "One of America's most iconic Generals, he competed in the 1912 Stockholm Olympics, fought in World War I, and commanded troops in North Africa, Italy, France, and Germany during World War II.",
+    answer: "George Patton",
+    category: "History",
+    dummy_answers: ["Omar Bradley", "Dwight Eisenhower", "Chester Nimitz"]
+)
+
+Question.create!(
+    text: "Considered to be one of the greatest tennis players of all time, she took down Bobby Riggs in the 'Battle of the Sexes'.",
     answer: "Billie Jean King",
     category: "Sports",
     dummy_answers: ["Margaret Court", "Serena Williams", "Maria Sharapova"]

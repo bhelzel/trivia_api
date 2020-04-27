@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_24_185947) do
+ActiveRecord::Schema.define(version: 2020_04_27_175413) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 2020_04_24_185947) do
     t.datetime "updated_at", precision: 6, null: false
     t.string "dummy_answers", default: [], array: true
     t.text "text"
+    t.text "blurb"
   end
 
 end
