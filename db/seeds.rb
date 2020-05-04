@@ -96,3 +96,17 @@ Question.create!(
     category: "Sports",
     answers_array: ["Margaret Court", "Billie Jean King", "Serena Williams", "Maria Sharapova"]
 )
+
+Question.create!(
+    text: "This common effect, observable when you put a pencil into a glass of water, for example, is the change in direction of a wave moving from one medium to another, caused by a change in its speed.",
+    answer: "Refraction",
+    category: "Science",
+    answers_array: ["Concavity", "Refraction", "Reflection", "Diffraction"]
+)
+
+Question.create!(
+    text: "World War Two's Battle of the Bulge was ___________",
+    answer: "A massive German counter-offensive in the Ardennes Forrest",
+    category: "History",
+    answers_array: ["The execution of Operation Market Garden in Holland", "A North African tank battle between Rommel and Patton", "A massive German counter-offensive through the Ardennes Forrest", "The final skirmish between Russian and German troops in Stalingrad"]
+)
