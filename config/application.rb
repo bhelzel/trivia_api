@@ -28,7 +28,7 @@ module TriviaApi
 
         origins '*'
 
-        resource '*', :headers=>:any, :methods=>[:get, :post, :options]
+        resource '*', :headers=>:any, :methods=>[:get]
 
       end
     end
