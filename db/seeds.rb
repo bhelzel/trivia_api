@@ -110,3 +110,17 @@ Question.create!(
     category: "History",
     answers_array: ["The execution of Operation Market Garden in Holland", "A North African tank battle between Rommel and Patton", "A massive German counter-offensive through the Ardennes Forrest", "The final skirmish between Russian and German troops in Stalingrad"]
 )
+
+Question.create!(
+    text: "__________ has more National Parks than any other state.",
+    answer: "California",
+    category: "Geography",
+    answers_array: ["Montana", "California", "Alaska", "Oregon"]
+)
+
+Question.create!(
+    text: "This language has three written alphabets: one logographic, the other two syllabic.",
+    answer: "Japanese",
+    category: "Grammar and Language",
+    answers_array: ["Swahili", "Japanese", "Turkish", "Russian"]
+)
