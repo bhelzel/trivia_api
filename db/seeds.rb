@@ -11,7 +11,7 @@ Question.create!(
     answer: "1903",
     category: "History",
     answers_array: ["1915", "1903", "1898", "1936"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -19,7 +19,7 @@ Question.create!(
     answer: "Deontology",
     category: "Philosophy",
     answers_array: ["Utilitarianism", "Existentialism", "Deontology", "Consequentialism"],
-    difficulty: 'Hard';
+    difficulty: "Hard"
 )
 
 Question.create!(
@@ -27,15 +27,15 @@ Question.create!(
     answer: "James Bond",
     category: "Film and Television",
     answers_array: ["Austin Powers", "Ian Flemming", "James Bond", "Matt Damon"],
-    difficulty: 'Easy';
+    difficulty: "Easy"
 )
 
 Question.create!(
-    text: "This world leader was known by the nickname: 'The Iron Lady'.",
+    text: "The Iron Lady",
     answer: "Margaret Thatcher",
-    category: "History",
+    category: "Famous Monikers",
     answers_array: ["Margaret Thatcher", "Angela Merkel", "Aung San Suu Kyi", "Theresa May"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -43,7 +43,7 @@ Question.create!(
     answer: "Doc Ellis",
     category: "Sports",
     answers_array: ["Randy Johnson", "Doc Ellis", "Cy Young", "Pedro Martínez"],
-    difficulty: 'Hard';
+    difficulty: "Hard"
 )
 
 Question.create!(
@@ -51,7 +51,7 @@ Question.create!(
     answer: "Julia Child",
     category: "Cooking",
     answers_array: ["Ina Garten", "Fannie Farmer", "Athena Calderone", "Julia Child"],
-    difficulty: 'Easy';
+    difficulty: "Easy"
 )
 
 Question.create!(
@@ -59,7 +59,7 @@ Question.create!(
     answer: "Keith Haring",
     category: "Art",
     answers_array: ["Jackson Pollock", "Keith Haring", "Andy Worhol", "Jean-Michel Basquiat"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -67,7 +67,7 @@ Question.create!(
     answer: "Tanzania",
     category: "Geography",
     answers_array: ["South Africa", "Morroco", "Tanzania", "Zimbabwe"],
-    difficulty: 'Easy';
+    difficulty: "Easy"
 )
 
 Question.create!(
@@ -75,7 +75,7 @@ Question.create!(
     answer: "Shane McConkey",
     category: "Sports",
     answers_array: ["Rob Gaffney", "JT Holmes", "Bode Miller", "Shane McConkey"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -83,7 +83,7 @@ Question.create!(
     answer: "Jia Zhangke",
     category: "Film and Television",
     answers_array: ["Jia Zhangke", "Wong Karwai", "Chen Kaige", "Zhou Bing"],
-    difficulty: 'Hard';
+    difficulty: "Hard"
 )
 
 Question.create!(
@@ -91,15 +91,15 @@ Question.create!(
     answer: "Frida Kahlo",
     category: "Art",
     answers_array: ["Berthe Morisot", "Frida Kahlo", "Georgia O'Keeffe", "Tamara de Lempicka"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
-    text: "One of America's most iconic Generals, immortalized in film via George C. Scott, fought in World War I, and commanded troops in North Africa, Italy, France, and Germany during World War II.",
+    text: "Ol' Blood and Guts",
     answer: "George Patton",
-    category: "History",
+    category: "Famous Monikers",
     answers_array: ["Omar Bradley", "Dwight Eisenhower", "George Patton", "Chester Nimitz"],
-    difficulty: 'Easy';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -107,7 +107,7 @@ Question.create!(
     answer: "Billie Jean King",
     category: "Sports",
     answers_array: ["Margaret Court", "Billie Jean King", "Serena Williams", "Maria Sharapova"],
-    difficulty: 'Easy';
+    difficulty: "Easy"
 )
 
 Question.create!(
@@ -115,7 +115,7 @@ Question.create!(
     answer: "Refraction",
     category: "Science",
     answers_array: ["Concavity", "Refraction", "Reflection", "Diffraction"],
-    difficulty: 'Easy';
+    difficulty: "Easy"
 )
 
 Question.create!(
@@ -123,7 +123,7 @@ Question.create!(
     answer: "A massive German counter-offensive in the Ardennes Forrest",
     category: "History",
     answers_array: ["The execution of Operation Market Garden in Holland", "A North African tank battle between Rommel and Patton", "A massive German counter-offensive through the Ardennes Forrest", "The final skirmish between Russian and German troops in Stalingrad"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -131,7 +131,7 @@ Question.create!(
     answer: "California",
     category: "Geography",
     answers_array: ["Montana", "California", "Alaska", "Oregon"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
 )
 
 Question.create!(
@@ -139,5 +139,29 @@ Question.create!(
     answer: "Japanese",
     category: "Grammar and Language",
     answers_array: ["Swahili", "Japanese", "Turkish", "Russian"],
-    difficulty: 'Medium';
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "The Thorpedo",
+    answer: "Ian Thorpe",
+    category: "Famous Monikers",
+    answers_array: ["Jim Thorpe", "Ian Thrope", "Bob Thorpe", "Bill Thorpe"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "The most decorated Olympian of all time",
+    answer: "Michael Phelps",
+    category: "Sports",
+    answers_array: ["Michael Phelps", "Mark Spitz", "Larissa Latynina", "Carl Lewis"],
+    difficulty: "Easy"
+)
+
+Question.create!(
+    text: "Che",
+    answer: "Ernesto Guevara",
+    category: "Famous Monikers",
+    answers_array: ["Juan Guevara", "Fidel Guevara", "Ernesto Guevara", "Ronaldo Guevara"],
+    difficulty: "Hard"
 )
