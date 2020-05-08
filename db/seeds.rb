@@ -218,6 +218,33 @@ Question.create!(
     text: "The Bad Boys",
     answer: "Late 80's Detroit Pistons",
     category: "Famous Monikers",
-    answers_array: ["The '85 Bears", "Late 80's Detroit Pistons", "Those involved in 'Malic at the Palace'", "The Baltimore Ravens"],
+    answers_array: ["The '85 Bears", 
+        "Late 80's Detroit Pistons", 
+        "Those involved in 'Malic at the Palace'", 
+        "The Baltimore Ravens"],
     difficulty: "Easy"
+)
+
+Question.create!(
+    text: "This Empire, which ruled India for roughly 300 years, was a major patron of the arts.",
+    answer: "The Mughal Empire",
+    category: "History",
+    answers_array: ["The Persian Empire", 
+        "The Mongolians", 
+        "The Mughal Empire", 
+        "The Khmer Empire"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "World War I was sparked by the assasination of __________.",
+    answer: "The Archduke of Austria",
+    category: "History",
+    answers_array: [
+        "The Archduke of Austria",
+        "The Crown Prince of Austria",
+        "The Duke of York",
+        "The Kaiser of Germany"
+    ],
+    difficulty: "Medium"
 )
