@@ -89,7 +89,7 @@ Question.create!(
 Question.create!(
     text: "Despite an almost fatal bus accident, which inspired her masterpiece 'The Broken Column', she recovered to become one of the most celebrated portrait artists of all time.",
     answer: "Frida Kahlo",
-    category: "Art",
+    category: "Art and Literature",
     answers_array: ["Berthe Morisot", "Frida Kahlo", "Georgia O'Keeffe", "Tamara de Lempicka"],
     difficulty: "Medium"
 )
@@ -122,7 +122,11 @@ Question.create!(
     text: "World War Two's Battle of the Bulge was ___________",
     answer: "A massive German counter-offensive through the Ardennes Forrest",
     category: "History",
-    answers_array: ["The execution of Operation Market Garden in Holland", "A North African tank battle between Rommel and Patton", "A massive German counter-offensive through the Ardennes Forrest", "The final skirmish between Russian and German troops in Stalingrad"],
+    answers_array: [
+        "The execution of Operation Market Garden in Holland", 
+        "A North African tank battle between Rommel and Patton", 
+        "A massive German counter-offensive through the Ardennes Forrest", 
+        "The final skirmish between Russian and German troops in Stalingrad"],
     difficulty: "Medium"
 )
 
@@ -178,7 +182,11 @@ Question.create!(
     text: "Bladerunner is the film adaptation of _____________.",
     answer: "Do Androids Dream of Electric Sheep",
     category: "Film and Television",
-    answers_array: ["The Man in the Highcastle", "Childhood's End", "Do Androids Dream of Electric Sheep", "Stranger in a Strange Land"],
+    answers_array: [
+        "The Man in the Highcastle", 
+        "Childhood's End", 
+        "Do Androids Dream of Electric Sheep", 
+        "Stranger in a Strange Land"],
     difficulty: "Medium"
 )
 
@@ -186,7 +194,11 @@ Question.create!(
     text: "How did Chubbs Petterson lose his hand?",
     answer: "An alligator bit it off",
     category: "Film and Television",
-    answers_array: ["An automibile accident", "Strange, unkown circumstances", "A meat slicer", "An alligator bit it off"],
+    answers_array: [
+        "An automibile accident", 
+        "Strange, unkown circumstances",
+        "A meat slicer", 
+        "An alligator bit it off"],
     difficulty: "Easy"
 )
 
@@ -218,7 +230,8 @@ Question.create!(
     text: "The Bad Boys",
     answer: "Late 80's Detroit Pistons",
     category: "Famous Monikers",
-    answers_array: ["The '85 Bears", 
+    answers_array: [
+        "The '85 Bears", 
         "Late 80's Detroit Pistons", 
         "Those involved in 'Malic at the Palace'", 
         "The Baltimore Ravens"],
@@ -229,7 +242,8 @@ Question.create!(
     text: "This Empire, which ruled India for roughly 300 years, was a major patron of the arts.",
     answer: "The Mughal Empire",
     category: "History",
-    answers_array: ["The Persian Empire", 
+    answers_array: [
+        "The Persian Empire", 
         "The Mongolians", 
         "The Mughal Empire", 
         "The Khmer Empire"],
