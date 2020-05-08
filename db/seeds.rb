@@ -201,7 +201,7 @@ Question.create!(
 Question.create!(
     text: "A day which will live in infamy.",
     answer: "December 7th, 1941",
-    category "History",
+    category: "History",
     answers_array: ["June 6th 1944", "April 19th, 1775", "December 7th, 1941", "September 11th, 2001"],
     difficulty: "Easy"
 )
