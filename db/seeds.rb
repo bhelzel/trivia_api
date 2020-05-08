@@ -35,7 +35,7 @@ Question.create!(
     answer: "Margaret Thatcher",
     category: "Famous Monikers",
     answers_array: ["Margaret Thatcher", "Angela Merkel", "Aung San Suu Kyi", "Theresa May"],
-    difficulty: "Medium"
+    difficulty: "Easy"
 )
 
 Question.create!(
@@ -164,4 +164,60 @@ Question.create!(
     category: "Famous Monikers",
     answers_array: ["Juan Guevara", "Fidel Guevara", "Ernesto Guevara", "Ronaldo Guevara"],
     difficulty: "Hard"
+)
+
+Question.create!(
+    text: "The Angel of Death",
+    answer: "Joseph Mengele",
+    category: "Famous Monikers",
+    answers_array: ["Kurt Blome", "Adolf Eichman", "Joseph Mengele", "Arthur Rudolph"],
+    difficulty: "Hard"
+)
+
+Question.create!(
+    text: "Bladerunner is the film adaptation of _____________.",
+    answer: "Do Androids Dream of Electric Sheep",
+    category: "Film and Television",
+    answers_array: ["The Man in the Highcastle", "Childhood's End", "Do Androids Dream of Electric Sheep", "Stranger in a Strange Land"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "How did Chubbs Petterson lose his hand?",
+    answer: "An alligator bit it off",
+    category: "Film and Television",
+    answers_array: ["An automibile accident", "Strange, unkown circumstances", "A meat slicer", "An alligator bit it off"],
+    difficulty: "Easy"
+)
+
+Question.create!(
+    text: "Douglas MacArthur famously smoked __________.",
+    answer: "a corncob pipe",
+    category: "History",
+    answers_array: ["cigars", "a corncob pipe", "mugwort", "a wood pipe he made himself"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "A day which will live in infamy."
+    answer: "December 7th, 1941",
+    category "History",
+    answers_array: ["June 6th 1944", "April 19th, 1775", "December 7th, 1941", "September 11th, 2001"],
+    difficulty: "Easy"
+)
+
+Question.create!(
+    text: "Tom Brady was drafted in the _____ round.",
+    answer: "6th",
+    category: "Sports",
+    answers_array: ["1st", "2nd", "4th", "6th"],
+    difficulty: "Easy"
+)
+
+Question.create!(
+    text: "The Bad Boys",
+    answer: "Late 80's Detroit Pistons",
+    category: "Famous Monikers",
+    answers_array: ["The '85 Bears", "Late 80's Detroit Pistons", "Those involved in 'Malic at the Palace'", "The Baltimore Ravens"],
+    difficulty: "Easy"
 )
