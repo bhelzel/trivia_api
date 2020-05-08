@@ -120,7 +120,7 @@ Question.create!(
 
 Question.create!(
     text: "World War Two's Battle of the Bulge was ___________",
-    answer: "A massive German counter-offensive in the Ardennes Forrest",
+    answer: "A massive German counter-offensive through the Ardennes Forrest",
     category: "History",
     answers_array: ["The execution of Operation Market Garden in Holland", "A North African tank battle between Rommel and Patton", "A massive German counter-offensive through the Ardennes Forrest", "The final skirmish between Russian and German troops in Stalingrad"],
     difficulty: "Medium"
@@ -146,7 +146,7 @@ Question.create!(
     text: "The Thorpedo",
     answer: "Ian Thorpe",
     category: "Famous Monikers",
-    answers_array: ["Jim Thorpe", "Ian Thrope", "Bob Thorpe", "Bill Thorpe"],
+    answers_array: ["Jim Thorpe", "Ian Thorpe", "Bob Thorpe", "Bill Thorpe"],
     difficulty: "Medium"
 )
 
