@@ -262,3 +262,11 @@ Question.create!(
     ],
     difficulty: "Medium"
 )
+
+Question.create!(
+    text: "After winning three championships, he retired to play baseball....",
+    answer: "Michael Jordan",
+    category: "Sports",
+    answers_array: [ "Tim Tebow", "Michael Jordan", "Danny Ainge", "Steve Nash"],
+    difficulty: "Easy"
+)
