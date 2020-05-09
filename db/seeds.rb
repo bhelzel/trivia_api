@@ -299,3 +299,16 @@ Question.create!(
     ],
     difficulty: "Medium"
 )
+
+Question.create!(
+    text: "This novel was the inspiration for Apocolypse Now.",
+    answer: "Heart of Darkness",
+    category: "Film and Television",
+    answers_array: [
+        "Heart of Darkness",
+        "Things Fall Apart",
+        "The Things They Carried",
+        "Further up the River"
+    ],
+    difficulty: "Medium"
+)
