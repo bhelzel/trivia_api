@@ -89,7 +89,7 @@ Question.create!(
 Question.create!(
     text: "Despite an almost fatal bus accident, which inspired her masterpiece 'The Broken Column', she recovered to become one of the most celebrated portrait artists of all time.",
     answer: "Frida Kahlo",
-    category: "Art and Literature",
+    category: "Art",
     answers_array: ["Berthe Morisot", "Frida Kahlo", "Georgia O'Keeffe", "Tamara de Lempicka"],
     difficulty: "Medium"
 )
@@ -256,7 +256,7 @@ Question.create!(
     category: "History",
     answers_array: [
         "The Archduke of Austria",
-        "The Crown Prince of Austria",
+        "The Crown Prince of Hungary",
         "The Duke of York",
         "The Kaiser of Germany"
     ],
@@ -269,4 +269,33 @@ Question.create!(
     category: "Sports",
     answers_array: [ "Tim Tebow", "Michael Jordan", "Danny Ainge", "Steve Nash"],
     difficulty: "Easy"
+)
+
+Question.create!(
+    text: "His signature move, the Shamgod, is used by the best dribblers in the NBA.",
+    answer: "God Shamgod",
+    category: "Sports",
+    answers_array: ["Kyrie Irving", "God Shamgod", "Moses Shamgod", "Jamal Crawford"],
+    difficulty: "Hard"
+)
+
+Question.create!(
+    text: "Kimye",
+    answer: "A hobbit and a gay fish",
+    category: "Famous Monikers",
+    answers_array: ["Kim and Kanye", "A hobbit and a gay fish", "J-Lo and A-Rod", "Kim Jung Il"],
+    difficulty: "Medium"
+)
+
+Question.create!(
+    text: "A profound story and work of philosophy, the novel follows a man and his son on a motorcycle journey across the northern United States.",
+    answer: "Zen and the Art of Motorcycle Maintenance",
+    category: "Literature",
+    answers_array: [
+        "Zen and the Art of Motorcycle Maintenance",
+        "Black Rebel Motorcycle Club",
+        "The Motorcycle Diaries",
+        "Kino's Journey"
+    ],
+    difficulty: "Medium"
 )
