@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+drop_table :questions
+create_table :questions
 
 Question.create!(
     text: "What year did the Wright Brothers first take flight?",
@@ -288,7 +290,7 @@ Question.create!(
 )
 
 Question.create!(
-    text: "A profound story and work of philosophy, the novel follows a man and his son on a motorcycle journey across the northern United States.",
+    text: "Both a moving story and profound work of philosophy, this novel follows a man and his son on a motorcycle journey across the northern United States.",
     answer: "Zen and the Art of Motorcycle Maintenance",
     category: "Literature",
     answers_array: [
@@ -311,4 +313,20 @@ Question.create!(
         "Further up the River"
     ],
     difficulty: "Medium"
+)
+
+Question.create!(
+    text: "At 1,642 Meters, this is the deepest lake in the world.",
+    answer: "Lake Baikal",
+    category: "Geography",
+    answers_array: ["Lake Malawi", "Qinghai Lake", "Lake Titicaca", "Lake Baikal"],
+    difficulty: "Easy"
+)
+
+Question.create!(
+    text: "________ is home to Angel Falls, the tallest waterfall on Earth.",
+    answer: "Venezuela",
+    category: "Geography",
+    answers_array: ["Brazil", "Venezuela", "India", "Central African Republic"],
+    difficulty: "Easy"
 )
