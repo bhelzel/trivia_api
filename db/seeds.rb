@@ -5,8 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-drop_table :questions
-create_table :questions
 
 Question.create!(
     text: "What year did the Wright Brothers first take flight?",
