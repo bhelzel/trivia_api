@@ -11,7 +11,8 @@ Question.create!(
     answer: "1903",
     category: "History",
     answers_array: ["1915", "1903", "1898", "1936"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -19,7 +20,8 @@ Question.create!(
     answer: "Deontology",
     category: "Philosophy",
     answers_array: ["Utilitarianism", "Existentialism", "Deontology", "Consequentialism"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "Liberal Arts"
 )
 
 Question.create!(
@@ -27,7 +29,8 @@ Question.create!(
     answer: "James Bond",
     category: "Film and Television",
     answers_array: ["Austin Powers", "Ian Flemming", "James Bond", "Matt Damon"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -35,7 +38,8 @@ Question.create!(
     answer: "Margaret Thatcher",
     category: "Famous Monikers",
     answers_array: ["Margaret Thatcher", "Angela Merkel", "Aung San Suu Kyi", "Theresa May"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -43,7 +47,8 @@ Question.create!(
     answer: "Doc Ellis",
     category: "Sports",
     answers_array: ["Randy Johnson", "Doc Ellis", "Cy Young", "Pedro Martínez"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -51,7 +56,8 @@ Question.create!(
     answer: "Julia Child",
     category: "Cooking",
     answers_array: ["Ina Garten", "Fannie Farmer", "Athena Calderone", "Julia Child"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Languages, Peoples, and Foods"
 )
 
 Question.create!(
@@ -59,7 +65,8 @@ Question.create!(
     answer: "Keith Haring",
     category: "Art",
     answers_array: ["Jackson Pollock", "Keith Haring", "Andy Worhol", "Jean-Michel Basquiat"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -67,7 +74,8 @@ Question.create!(
     answer: "Tanzania",
     category: "Geography",
     answers_array: ["South Africa", "Morroco", "Tanzania", "Zimbabwe"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "The Sciences"
 )
 
 Question.create!(
@@ -75,7 +83,8 @@ Question.create!(
     answer: "Shane McConkey",
     category: "Sports",
     answers_array: ["Rob Gaffney", "JT Holmes", "Bode Miller", "Shane McConkey"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -83,7 +92,8 @@ Question.create!(
     answer: "Jia Zhangke",
     category: "Film and Television",
     answers_array: ["Jia Zhangke", "Wong Karwai", "Chen Kaige", "Zhou Bing"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -91,7 +101,8 @@ Question.create!(
     answer: "Frida Kahlo",
     category: "Art",
     answers_array: ["Berthe Morisot", "Frida Kahlo", "Georgia O'Keeffe", "Tamara de Lempicka"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -99,7 +110,8 @@ Question.create!(
     answer: "George Patton",
     category: "Famous Monikers",
     answers_array: ["Omar Bradley", "Dwight Eisenhower", "George Patton", "Chester Nimitz"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -107,7 +119,8 @@ Question.create!(
     answer: "Billie Jean King",
     category: "Sports",
     answers_array: ["Margaret Court", "Billie Jean King", "Serena Williams", "Maria Sharapova"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -115,7 +128,8 @@ Question.create!(
     answer: "Refraction",
     category: "Science",
     answers_array: ["Concavity", "Refraction", "Reflection", "Diffraction"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "The Sciences"
 )
 
 Question.create!(
@@ -127,7 +141,8 @@ Question.create!(
         "A North African tank battle between Rommel and Patton", 
         "A massive German counter-offensive through the Ardennes Forrest", 
         "The final skirmish between Russian and German troops in Stalingrad"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -135,7 +150,8 @@ Question.create!(
     answer: "California",
     category: "Geography",
     answers_array: ["Montana", "California", "Alaska", "Oregon"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "The Sciences"
 )
 
 Question.create!(
@@ -151,7 +167,8 @@ Question.create!(
     answer: "Ian Thorpe",
     category: "Famous Monikers",
     answers_array: ["Jim Thorpe", "Ian Thorpe", "Bob Thorpe", "Bill Thorpe"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -159,7 +176,8 @@ Question.create!(
     answer: "Michael Phelps",
     category: "Sports",
     answers_array: ["Michael Phelps", "Mark Spitz", "Larissa Latynina", "Carl Lewis"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -167,7 +185,8 @@ Question.create!(
     answer: "Ernesto Guevara",
     category: "Famous Monikers",
     answers_array: ["Juan Guevara", "Fidel Guevara", "Ernesto Guevara", "Ronaldo Guevara"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -175,7 +194,8 @@ Question.create!(
     answer: "Joseph Mengele",
     category: "Famous Monikers",
     answers_array: ["Kurt Blome", "Adolf Eichman", "Joseph Mengele", "Arthur Rudolph"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -187,7 +207,8 @@ Question.create!(
         "Childhood's End", 
         "Do Androids Dream of Electric Sheep", 
         "Stranger in a Strange Land"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -199,7 +220,8 @@ Question.create!(
         "Strange, unkown circumstances",
         "A meat slicer", 
         "An alligator bit it off"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -207,7 +229,8 @@ Question.create!(
     answer: "a corncob pipe",
     category: "History",
     answers_array: ["cigars", "a corncob pipe", "mugwort", "a wood pipe he made himself"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -215,7 +238,8 @@ Question.create!(
     answer: "December 7th, 1941",
     category: "History",
     answers_array: ["June 6th 1944", "April 19th, 1775", "December 7th, 1941", "September 11th, 2001"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -223,7 +247,8 @@ Question.create!(
     answer: "6th",
     category: "Sports",
     answers_array: ["1st", "2nd", "4th", "6th"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -235,7 +260,8 @@ Question.create!(
         "Late 80's Detroit Pistons", 
         "Those involved in 'Malic at the Palace'", 
         "The Baltimore Ravens"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -247,7 +273,8 @@ Question.create!(
         "The Mongolians", 
         "The Mughal Empire", 
         "The Khmer Empire"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -260,7 +287,8 @@ Question.create!(
         "The Duke of York",
         "The Kaiser of Germany"
     ],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "History Buffs"
 )
 
 Question.create!(
@@ -268,7 +296,8 @@ Question.create!(
     answer: "Michael Jordan",
     category: "Sports",
     answers_array: [ "Tim Tebow", "Michael Jordan", "Danny Ainge", "Steve Nash"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -276,7 +305,8 @@ Question.create!(
     answer: "God Shamgod",
     category: "Sports",
     answers_array: ["Kyrie Irving", "God Shamgod", "Moses Shamgod", "Jamal Crawford"],
-    difficulty: "Hard"
+    difficulty: "Hard",
+    game: "Sports and Athletics"
 )
 
 Question.create!(
@@ -284,7 +314,8 @@ Question.create!(
     answer: "A hobbit and a gay fish",
     category: "Famous Monikers",
     answers_array: ["Kim and Kanye", "A hobbit and a gay fish", "J-Lo and A-Rod", "Kim Jung Il"],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -297,7 +328,8 @@ Question.create!(
         "The Motorcycle Diaries",
         "Kino's Journey"
     ],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Liberal Arts"
 )
 
 Question.create!(
@@ -310,7 +342,8 @@ Question.create!(
         "The Things They Carried",
         "Further up the River"
     ],
-    difficulty: "Medium"
+    difficulty: "Medium",
+    game: "Art and Entertainment"
 )
 
 Question.create!(
@@ -318,7 +351,8 @@ Question.create!(
     answer: "Lake Baikal",
     category: "Geography",
     answers_array: ["Lake Malawi", "Qinghai Lake", "Lake Titicaca", "Lake Baikal"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "The Sciences"
 )
 
 Question.create!(
@@ -326,5 +360,6 @@ Question.create!(
     answer: "Venezuela",
     category: "Geography",
     answers_array: ["Brazil", "Venezuela", "India", "Central African Republic"],
-    difficulty: "Easy"
+    difficulty: "Easy",
+    game: "The Sciences"
 )
