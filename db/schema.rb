@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_07_012637) do
+ActiveRecord::Schema.define(version: 2020_05_12_233038) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2020_05_07_012637) do
     t.text "blurb"
     t.string "answers_array", default: [], array: true
     t.string "difficulty"
+    t.string "game"
   end
 
 end
